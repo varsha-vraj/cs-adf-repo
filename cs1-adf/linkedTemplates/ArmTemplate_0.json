@@ -92,7 +92,8 @@
 						"fileName": {
 							"value": "@dataset().fileName\r\n",
 							"type": "Expression"
-						}
+						},
+						"fileSystem": "raw"
 					},
 					"columnDelimiter": ",",
 					"escapeChar": "\\",
