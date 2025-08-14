@@ -90,10 +90,9 @@
 					"location": {
 						"type": "AzureBlobFSLocation",
 						"fileName": {
-							"value": "@dataset().fileName",
+							"value": "@dataset().fileName\r\n",
 							"type": "Expression"
-						},
-						"fileSystem": "raw"
+						}
 					},
 					"columnDelimiter": ",",
 					"escapeChar": "\\",
