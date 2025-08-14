@@ -65,7 +65,7 @@
 				]
 			},
 			{
-				"name": "ForEach1",
+				"name": "forEachRawFiles",
 				"type": "ForEach",
 				"dependsOn": [
 					{
@@ -83,7 +83,7 @@
 					},
 					"activities": [
 						{
-							"name": "ds_raw_csv",
+							"name": "RawToBronze",
 							"type": "Copy",
 							"dependsOn": [],
 							"policy": {
